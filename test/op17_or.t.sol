@@ -3,6 +3,8 @@ pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
 
+/// @dev or(a, b)
+///      a | b: the bitwise OR result.
 contract op17_or is Test {
     function testCase0000() public pure {
         uint256 a = 0x00ff;
